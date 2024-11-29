@@ -1,6 +1,7 @@
-This program This a simple HTTP server built using Node.js that serves static HTML files based on the URL path requested by the client. Here's a detailed description of its components and functionality:
+This program is a simple HTTP server built using Node.js. It serves static HTML files based on the URL path requested by the client. 
 
-Key Features:
+Below is a detailed description of its components and functionality:
+
 1. Static File Serving:
 - The server serves static HTML files (index.html, about.html, contact.html, services.html) based on the URL path.
 - It uses the Node.js fs module to read the HTML files from the file system and send them as responses to HTTP requests.
@@ -18,4 +19,4 @@ Key Features:
 
 5. Simple Setup:
 - The server is lightweight and easy to set up, requiring only Node.js and a few lines of code.
-- It runs on a specified port (e.g., 3000) and can be accessed via a web browser, using http://localhost:3000 => you can also add /index (for the 'Home' page), /about (for the 'About Us' page), /contact (for the 'Contact Us' page), and /services (for the 'Our Services' page).
+- It runs on a specified port (e.g., 3000) and can be accessed via a web browser, using http://localhost:3000 => you can also add the following to the URL; '/index' (for the 'Home' page), '/about' (for the 'About Us' page), '/contact' (for the 'Contact Us' page), and '/services' (for the 'Our Services' page).
