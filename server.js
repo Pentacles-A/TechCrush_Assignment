@@ -39,6 +39,8 @@ server.listen(3000, () => {
     console.log('Server running at http://localhost:3000/');
 });
 
+// Trying to testrun a simple server to see if it'll jumpstart the port since it's not listening 
+
 // const http = require('http');
 
 // const server = http.createServer((req, res) => {
